@@ -1,0 +1,80 @@
+.navBar {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+    position: fixed;
+    top: -1%;
+    left: 5%; /* Adjust as needed */
+    right: 5%; /* Adjust as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: 54px;
+    border-radius: 8px;
+    padding-top: 10px;
+    z-index: 10000;
+    /* Add other styles as needed */
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    gap: 0px;
+}
+
+.navButton{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.navBar button {
+    font-weight: 600;
+    font-size: 1.3em;
+    background: rgb(0, 0, 0);
+    color: #ffdc13;
+    /*border-right: .5px solid white;
+    border-left: .5px solid white;*/
+    padding: 10px 20px;
+    border-radius: 0px;
+    height: 54px;
+    position: relative;
+    /* Add other styles as needed */
+
+}
+
+.navBar button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px; /* Adjust as needed */
+    width: 100%;
+    height: 2px;
+    background: #ffdc13;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navBar button:hover::after {
+    transform: scaleX(1);
+    border-color: black;
+}
+
+.logIn {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 50px;
+}
+.logo img{
+    width: 55%;
+    height: 55%;
+    margin-left: 100px;
+    /* Add other styles as needed */
+}

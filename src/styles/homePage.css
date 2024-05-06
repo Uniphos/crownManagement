@@ -1,0 +1,40 @@
+.homePage-body {  
+    position:absolute;
+    display: flex; /* Add this line */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 5%;
+    top: 50px;
+    z-index: 0;
+    background-color: #E0E0E2;
+}
+
+.homePage-main {
+    position: relative; /* Add this line */
+    padding-left: 668px;
+}
+
+.homePage-main .homePage-options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.homePage-options {
+   margin-top: 300px;
+   margin-right: 668px;
+   background-color: rgba(255, 255, 255, 0.75);
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+/*.homePage-main .homePage-options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}*/
