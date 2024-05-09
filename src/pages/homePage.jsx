@@ -2,9 +2,11 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Layout from"../components/layout"
 import "../styles/homePage.css";
+import Cards from "../components/cards";
+import BottomInfo from "../components/bottomInfo";
 
 const HomePage = () => {
-    
+
 
     return (
             <Layout>
@@ -12,12 +14,16 @@ const HomePage = () => {
                     <div className="homePage-main">
                         <div className="homePage-options">
                             <h1>Welcome to Crown Management</h1>
-                            <p>At Crown Management, we believe that every family deserves a home. We are dedicated to helping you find the perfect home for you and your family. Our team of experts will work with you to find a home that fits your needs and your budget. Whether you are looking to buy, rent, or sell, we are here to help. Contact us today to get started!</p>
+                            <p>Select what insurence your looking for</p>
+                            <Cards />
                         </div>
 
                         <div className="homePage-image">
                                 <img src="https://media.istockphoto.com/id/1215369487/photo/happy-extended-family-having-fun-during-family-lunch-in-dining-room.jpg?s=1024x1024&w=is&k=20&c=Bz9AWZMzX9bnOiWmMn59Z929k4p2BahfMaqvmVByC3s=" />
                         </div>
+                    </div>
+                    <div classname="homePage-Extra">
+                        <BottomInfo />
                     </div>
                 </div>
             </Layout>
