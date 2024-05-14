@@ -22,7 +22,7 @@ const HomePage = () => {
                                 <img src="https://media.istockphoto.com/id/1215369487/photo/happy-extended-family-having-fun-during-family-lunch-in-dining-room.jpg?s=1024x1024&w=is&k=20&c=Bz9AWZMzX9bnOiWmMn59Z929k4p2BahfMaqvmVByC3s=" />
                         </div>
                     </div>
-                    <div classname="homePage-Extra">
+                    <div className="homePage-Extra">
                         <BottomInfo />
                     </div>
                 </div>

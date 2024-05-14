@@ -16,9 +16,25 @@ const BottomInfo = () => {
             <div className="bottomInfo-owners">
                 <div className="ownerOne">
                     <img src={gImg} alt="family" />
+                    <div className="ownerOne-text">
+                        <h2>John Doe</h2>
+                        <p>Bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        </p>
+                    </div>
                 </div>
 
                 <div className="ownerTwo">
+                    <div className="ownerTwo-text">
+                        <h2>John Doe</h2>
+                        <p>Bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla Bla bla bla bla bla bla bla bla bla bla bla 
+                        </p>
+                    </div>
                     <img src={hImg} alt="family" />
                 </div>
             </div>

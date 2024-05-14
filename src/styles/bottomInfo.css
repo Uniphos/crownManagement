@@ -1,4 +1,53 @@
 .bottomInfo-body {
   padding-top: 20px;
   background-color: #ffffff;
+  padding-bottom: 20px;
+  /*margin-left: 75px;*/
+  
+}
+
+.ownerOne {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display : flex;
+
+}
+
+.ownerOne-text h2 {
+  margin-left: 450px;
+  margin-right: 450px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bottomInfo-owners {
+  display: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ownerOne-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.ownerTwo {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  display : flex;
+
+}
+
+.ownerTwo-text h2 {
+  margin-left: 500px;
+  margin-right: 500px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ownerTwo-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
 }
